@@ -1,0 +1,412 @@
+2018-01-31 3:08:14 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: OC Customize Template
+
+FILE: admin/model/localisation/language.php
+CODE: return $language_id;
+LINE: 220
+
+FILE: catalog/controller/account/voucher.php
+CODE: $this->load->language('account/voucher');
+LINE: 8
+LINE: 164
+
+FILE: catalog/controller/account/address.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 16
+LINE: 35
+LINE: 67
+LINE: 115
+
+FILE: catalog/controller/account/download.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 14
+
+FILE: catalog/controller/account/order.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 14
+
+FILE: catalog/controller/account/recurring.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 14
+
+FILE: catalog/controller/account/return.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 16
+LINE: 234
+LINE: 516
+
+FILE: catalog/controller/account/reward.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 14
+
+FILE: catalog/controller/account/transaction.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 14
+
+FILE: catalog/controller/account/wishlist.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 29
+
+FILE: catalog/controller/checkout/cart.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 8
+
+FILE: catalog/controller/common/cart.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/controller/extension/credit_card/sagepay_direct.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 16
+LINE: 99
+
+FILE: catalog/controller/extension/credit_card/sagepay_server.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 16
+
+FILE: catalog/controller/product/search.php
+CODE: $data['breadcrumbs'] = array();
+LINE: 78
+
+FILE: catalog/controller/product/category.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/controller/product/compare.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 28
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 12
+
+FILE: catalog/controller/product/special.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 36
+CODE: $this->load->language('product/category');
+LINE: 6
+
+FILE: catalog/controller/account/account.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 14
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 16
+LINE: 38
+LINE: 73
+LINE: 124
+
+FILE: catalog/controller/account/affiliate.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 16
+LINE: 43
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 14
+
+FILE: catalog/controller/account/edit.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 16
+
+FILE: catalog/controller/account/forgotten.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 14
+
+FILE: catalog/controller/account/login.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 52
+
+FILE: catalog/controller/account/logout.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 27
+
+FILE: catalog/controller/account/newsletter.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 14
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 14
+
+FILE: catalog/controller/account/password.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 16
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 14
+
+FILE: catalog/controller/account/register.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 14
+
+FILE: catalog/controller/account/reset.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 25
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 16
+LINE: 237
+LINE: 522
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 14
+
+FILE: catalog/controller/account/success.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 8
+
+FILE: catalog/controller/account/tracking.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 19
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 14
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 13
+LINE: 172
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 29
+
+FILE: catalog/controller/affiliate/login.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 14
+
+FILE: catalog/controller/affiliate/register.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 14
+
+FILE: catalog/controller/affiliate/success.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 8
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 14
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 14
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 8
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 8
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 30
+
+FILE: catalog/controller/checkout/failure.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 8
+
+FILE: catalog/controller/checkout/success.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 25
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 28
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 12
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 75
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 36
+
+FILE: catalog/controller/common/maintenance.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 8
+
+FILE: catalog/controller/error/not_found.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 8
+
+FILE: catalog/controller/information/sitemap.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 8
+
+FILE: catalog/controller/information/contact.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 10
+LINE: 177
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 16
+LINE: 102
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 16
+
+FILE: catalog/controller/extension/credit_card/squareup.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 17
+
+FILE: catalog/controller/extension/payment/sagepay_direct.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/controller/extension/payment/sagepay_server.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/controller/extension/payment/squareup.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/controller/extension/payment/amazon_login_pay.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 7
+LINE: 53
+LINE: 101
+LINE: 598
+
+FILE: catalog/controller/extension/payment/klarna_checkout.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 11
+
+FILE: catalog/controller/extension/payment/wechat_pay.php
+CODE: $this->document->setTitle($this->language->get('heading_title'));
+LINE: 24
+CODE: $data['text_items'] = sprintf($this->language->get('text_items'), $this->cart->countProducts() + (isset($this->session->data['vouchers']) ? count($this->session->data['vouchers']) : 0), $this->currency->format($total, $this->session->data['currency']));
+LINE: 49
+CODE: $data['products'][] = array(
+LINE: 102
+
+FILE: catalog/controller/common/header.php
+CODE: return $this->load->view('common/header', $data);
+LINE: 107
+
+FILE: catalog/controller/common/footer.php
+CODE: $data['newsletter'] = $this->url->link('account/newsletter', '', true);
+LINE: 34
+CODE: foreach ($results as $result) {
+LINE: 156
+LINE: 199
+CODE: $data['products'][] = array(
+LINE: 274
+CODE: 'product_id'  => $result['product_id'],
+LINE: 283
+
+FILE: catalog/controller/product/product.php
+CODE: $this->load->language('product/product');
+LINE: 9
+LINE: 531
+LINE: 574
+LINE: 618
+CODE: $results = $this->model_catalog_product->getProductRelated($this->request->get['product_id']);
+LINE: 397
+CODE: $data['products'][] = array(
+LINE: 476
+CODE: 'rating'      => $rating,
+LINE: 493
+CODE: $data['description'] = html_entity_decode($product_info['description'], ENT_QUOTES, 'UTF-8');
+LINE: 249
+CODE: $results = $this->model_catalog_product->getProductSpecials($filter_data);
+LINE: 102
+CODE: $data['products'][] = array(
+LINE: 179
+CODE: 'rating'      => $result['rating'],
+LINE: 196
+CODE: $results = $this->model_catalog_product->getProducts($filter_data);
+LINE: 212
+CODE: $data['products'][] = array(
+LINE: 288
+CODE: 'rating'      => $result['rating'],
+LINE: 305
+CODE: $results = $this->model_catalog_product->getProducts($filter_data);
+LINE: 175
+CODE: $data['products'][] = array(
+LINE: 251
+CODE: 'rating'      => $result['rating'],
+LINE: 268
+----------------------------------------------------------------
+MOD: OC Layered Navigation Ajax
+CODE: $category_info = $this->model_catalog_category->getCategory($category_id);
+LINE: 101
+CODE: 'href' => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '_' . $result['category_id'] . $url)
+LINE: 173
+CODE: $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.sort_order&order=ASC' . $url)
+LINE: 320
+CODE: $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=pd.name&order=ASC' . $url)
+LINE: 326
+CODE: $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=pd.name&order=DESC' . $url)
+LINE: 332
+CODE: $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.price&order=ASC' . $url)
+LINE: 338
+CODE: $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.price&order=DESC' . $url)
+LINE: 344
+CODE: $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=rating&order=DESC' . $url)
+LINE: 351
+CODE: $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=rating&order=ASC' . $url)
+LINE: 357
+CODE: $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.model&order=ASC' . $url)
+LINE: 364
+CODE: $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.model&order=DESC' . $url)
+LINE: 370
+CODE: $this->url->link('product/category', 'path=' . $this->request->get['path'] . $url . '&limit=' . $value)
+LINE: 397
+CODE: $pagination->url = $this->url->link('product/category', 'path=' . $this->request->get['path'] . $url . '&page={page}');
+LINE: 423
+CODE: $data['limit'] = $limit;
+LINE: 446
+CODE: $this->response->setOutput($this->load->view('product/category', $data));
+LINE: 474
+
+FILE: catalog/model/catalog/product.php
+CODE: if (!empty($data['filter_manufacturer_id'])) {
+LINE: 163
+LINE: 532
+----------------------------------------------------------------
+MOD: OC Theme Option
+
+FILE: admin/controller/common/column_left.php
+CODE: $sale = array();
+LINE: 326
+
+FILE: admin/controller/catalog/product.php
+CODE: public function index() {
+LINE: 11
+CODE: $this->load->language('catalog/product');
+LINE: 16
+LINE: 30
+LINE: 86
+LINE: 142
+LINE: 200
+CODE: 'sort_order' => $product_image['sort_order']
+LINE: 1112
+
+FILE: admin/model/catalog/product.php
+CODE: $this->db->query("INSERT INTO " . DB_PREFIX . "product_image SET product_id = '" . (int)$product_id . "', image = '" . $this->db->escape($product_image['image']) . "', sort_order = '" . (int)$product_image['sort_order'] . "'");
+LINE: 74
+LINE: 221
+
+FILE: admin/view/template/catalog/product_form.twig
+CODE: <td class="text-right">{{ entry_sort_order }}</td>
+LINE: 1010
+CODE: <td class="text-left"><button type="button" onclick="$('#image-row{{ image_row }}').remove();" data-toggle="tooltip" title="{{ button_remove }}" class="btn btn-danger"><i class="fa fa-minus-circle"></i></button></td>
+LINE: 1037
+CODE: function addImage() {
+LINE: 1607
+CODE: $('#images tbody').append(html);
+LINE: 1625
+CODE: html += '  <td class="text-left"><button type="button" onclick="$(\'#image-row' + image_row  + '\').remove();" data-toggle="tooltip" title="{{ button_remove }}" class="btn btn-danger"><i class="fa fa-minus-circle"></i></button></td>';
+LINE: 1621
+CODE: return $this->load->view('common/header', $data);
+LINE: 114
+
+FILE: admin/controller/design/layout.php
+CODE: $this->response->setOutput($this->load->view('design/layout_form', $data));
+LINE: 397
+----------------------------------------------------------------

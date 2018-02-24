@@ -1,0 +1,76 @@
+2017-12-20 10:16:08 - PHP Warning:  mysqli::mysqli(): (HY000/1049): Unknown database 'opencart' in D:\web\opencart\system\library\db\mysqli.php on line 7
+2017-12-20 10:16:08 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in D:\web\opencart\system\library\db\mysqli.php on line 10
+2017-12-20 10:16:08 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in D:\web\opencart\system\library\db\mysqli.php on line 10
+2017-12-20 10:16:08 - PHP Notice:  Undefined variable: mysql in D:\web\opencart\install\controller\install\step_3.php on line 280
+2017-12-20 10:16:08 - PHP Notice:  Trying to get property of non-object in D:\web\opencart\install\controller\install\step_3.php on line 280
+2018-01-30 7:17:59 - PHP Notice:  A non well formed numeric value encountered in D:\web\opencart\system\library\image.php on line 169
+2018-01-30 7:17:59 - PHP Notice:  A non well formed numeric value encountered in D:\web\opencart\system\library\image.php on line 180
+2018-01-30 7:17:59 - PHP Notice:  A non well formed numeric value encountered in D:\web\opencart\system\library\image.php on line 169
+2018-01-30 7:17:59 - PHP Notice:  A non well formed numeric value encountered in D:\web\opencart\system\library\image.php on line 180
+2018-01-31 3:10:51 - PHP Notice:  Undefined index: zh-cn in D:\web\opencart\catalog\controller\extension\module\octabproducts.php on line 225
+2018-01-31 3:10:51 - PHP Notice:  Undefined index: zh-cn in D:\web\opencart\catalog\controller\extension\module\octabproducts.php on line 225
+2018-01-31 3:10:51 - PHP Notice:  Undefined index: zh-cn in D:\web\opencart\catalog\controller\extension\module\octabproducts.php on line 225
+2018-01-31 3:10:51 - PHP Notice:  Undefined index: zh-cn in D:\web\opencart\catalog\controller\extension\module\octabproducts.php on line 225
+2018-01-31 3:26:09 - PHP Warning:  unlink(D:/web/storage/cache/cache.catalog.language.1517372768): No such file or directory in D:\web\opencart\system\library\cache\file.php on line 68
+2018-01-31 3:48:43 - Unable to create Paypal session{"TIMESTAMP":"2018-01-31T03:48:44Z","CORRELATIONID":"cc88f4202a2ef","ACK":"Failure","VERSION":"109.0","BUILD":"43109726","L_ERRORCODE0":"10605","L_SHORTMESSAGE0":"Transaction refused because of an invalid argument. See additional error messages for details.","L_LONGMESSAGE0":"Currency is not supported","L_SEVERITYCODE0":"Error"}
+2018-01-31 6:39:24 - PHP Notice:  Undefined index: zh-cn in D:\web\opencart\catalog\controller\extension\module\octabproducts.php on line 225
+2018-01-31 6:39:24 - PHP Notice:  Undefined index: zh-cn in D:\web\opencart\catalog\controller\extension\module\octabproducts.php on line 225
+2018-01-31 6:39:24 - PHP Notice:  Undefined index: zh-cn in D:\web\opencart\catalog\controller\extension\module\octabproducts.php on line 225
+2018-01-31 6:39:24 - PHP Notice:  Undefined index: zh-cn in D:\web\opencart\catalog\controller\extension\module\octabproducts.php on line 225
+2018-01-31 6:50:38 - PHP Notice:  Undefined index: zh-cn in D:\web\opencart\catalog\controller\extension\module\octabproducts.php on line 224
+2018-01-31 6:50:38 - PHP Notice:  Undefined index: zh-cn in D:\web\opencart\catalog\controller\extension\module\octabproducts.php on line 224
+2018-01-31 6:50:38 - PHP Notice:  Undefined index: zh-cn in D:\web\opencart\catalog\controller\extension\module\octabproducts.php on line 224
+2018-01-31 6:50:38 - PHP Notice:  Undefined index: zh-cn in D:\web\opencart\catalog\controller\extension\module\octabproducts.php on line 224
+2018-01-31 7:34:42 - PHP Warning:  fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (������ӷ���һ��ʱ���û���ȷ�𸴻�ӵ����û�з�Ӧ�����ӳ���ʧ�ܡ�
+) in D:\web\opencart\system\library\mail\smtp.php on line 87
+2018-01-31 7:38:21 - PHP Warning:  fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (������ӷ���һ��ʱ���û���ȷ�𸴻�ӵ����û�з�Ӧ�����ӳ���ʧ�ܡ�
+) in D:\web\opencart\system\library\mail\smtp.php on line 87
+2018-01-31 10:21:27 - PHP Notice:  Undefined index: subject in D:\web\opencart\admin\controller\extension\module\newslettersubscribe.php on line 344
+2018-01-31 10:21:27 - PHP Notice:  Undefined index: message in D:\web\opencart\admin\controller\extension\module\newslettersubscribe.php on line 348
+2018-01-31 10:21:41 - PHP Notice:  Undefined index: subject in D:\web\opencart\admin\controller\extension\module\newslettersubscribe.php on line 344
+2018-01-31 10:21:41 - PHP Notice:  Undefined index: message in D:\web\opencart\admin\controller\extension\module\newslettersubscribe.php on line 348
+2018-01-31 10:21:51 - PHP Notice:  Undefined index: subject in D:\web\opencart\admin\controller\extension\module\newslettersubscribe.php on line 344
+2018-01-31 10:21:51 - PHP Notice:  Undefined index: message in D:\web\opencart\admin\controller\extension\module\newslettersubscribe.php on line 348
+2018-01-31 10:23:22 - PHP Notice:  Undefined index: subject in D:\web\opencart\admin\controller\extension\module\newslettersubscribe.php on line 344
+2018-01-31 10:23:22 - PHP Notice:  Undefined index: message in D:\web\opencart\admin\controller\extension\module\newslettersubscribe.php on line 348
+2018-02-02 8:35:43 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:35:43 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:35:43 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:35:43 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:35:43 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:35:43 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:35:43 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:35:43 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:35:43 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:35:43 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:35:43 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:35:43 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:35:43 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:35:43 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:35:43 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:35:43 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:35:43 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:35:43 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:35:43 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:35:43 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:36:09 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:36:09 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:36:09 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:36:09 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:36:09 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:36:09 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:36:09 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:36:09 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:36:09 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:36:09 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:36:09 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:36:09 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:36:09 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:36:09 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:36:09 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:36:09 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:36:09 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:36:09 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:36:09 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-02 8:36:09 - PHP Notice:  Undefined index: image in D:\web\opencart\admin\controller\extension\module\octabproducts.php on line 167
+2018-02-06 6:33:52 - PHP Warning:  unlink(D:/web/storage/cache/cache.catalog.language.1517902432): Permission denied in D:\web\opencart\system\library\cache\file.php on line 68

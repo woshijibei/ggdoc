@@ -1,0 +1,44 @@
+{% if block2 %}
+	<div class="container">
+		{{ block2 }}
+	</div>
+{% endif %}
+<footer>
+	<div class="container">
+		<div id="back-top">{{ text_backtop }}</div>
+		{% if block3 %}
+			{{ block3 }}
+		{% endif %}
+		<p class="copyright-text">{{ powered }}</p>
+		{% if block4 %}
+			{{ block4 }}
+		{% endif %}
+	</div>
+</footer>
+<script type="text/javascript">
+$(document).ready(function(){
+	// hide #back-top first
+	$("#back-top").hide();
+	// fade in #back-top
+	$(function () {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > ($('header').height()+$('header').offset().top)) {
+				$('#back-top').fadeIn();
+			} else {
+				$('#back-top').fadeOut();
+			}
+		});
+		// scroll body to 0px on click
+		$('#back-top').click(function () {
+			$('body,html').animate({scrollTop: 0}, 800);
+			return false;
+		});
+	});
+});
+</script>
+<!--
+OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
+Please donate via PayPal to donate@opencart.com
+//-->
+</div><!-- wrapper -->
+</body></html>

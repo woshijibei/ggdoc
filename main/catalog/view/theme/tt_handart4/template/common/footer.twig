@@ -1,0 +1,72 @@
+{% if block2 %}
+	<div class="container">
+		{{ block2 }}
+	</div>
+{% endif %}
+<footer>
+	<div class="top-footer">
+		<div class="container">
+			<div class="row">				
+				{% if block3 %}
+					<div class="col-sm-8 col-f">
+						{{ block3 }}
+					</div>
+				{% endif %}
+				<div class="col-sm-2 col-f">
+					<h5 class="title-footer">{{ text_information }}</h5>
+					<ul class="list-unstyled">
+						{% for information in informations %}
+							<li><a href="{{ information.href }}">{{ information.title }}</a></li>
+						{% endfor %}
+					</ul>
+				</div>		
+				<div class="col-sm-2 col-f">
+					<h5 class="title-footer">{{ text_service }}</h5>
+					<ul class="list-unstyled">
+					<li><a href="{{ contact }}">{{ text_contact }}</a></li>
+					<li><a href="{{ return }}">{{ text_return }}</a></li>
+					<li><a href="{{ sitemap }}">{{ text_sitemap }}</a></li>
+					<li><a href="{{ special }}">{{ text_special }}</a></li>
+					<li><a href="{{ manufacturer }}">{{ text_manufacturer }}</a></li>
+					</ul>
+				</div>				
+			</div>
+		</div>
+	</div>
+	<div class="bottom-footer">
+		<div class="container">
+			<p class="copyright-text">{{ powered }}</p>
+			{% if block4 %}
+				{{ block4 }}
+			{% endif %}
+		</div>
+	</div>
+	<div id="back-top">{{ text_backtop }}</div>
+</footer>
+<script type="text/javascript">
+$(document).ready(function(){
+	// hide #back-top first
+	$("#back-top").hide();
+	// fade in #back-top
+	$(function () {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > ($('header').height()+$('header').offset().top)) {
+				$('#back-top').fadeIn();
+			} else {
+				$('#back-top').fadeOut();
+			}
+		});
+		// scroll body to 0px on click
+		$('#back-top').click(function () {
+			$('body,html').animate({scrollTop: 0}, 800);
+			return false;
+		});
+	});
+});
+</script>
+<!--
+OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
+Please donate via PayPal to donate@opencart.com
+//-->
+</div><!-- wrapper -->
+</body></html>
